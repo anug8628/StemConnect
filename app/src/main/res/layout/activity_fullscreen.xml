@@ -1,0 +1,53 @@
+
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#0099cc"
+        tools:context="com.example.anushka.my_application.FullscreenActivity">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+            <Button
+                android:id="@+id/Profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="Profile" />
+
+            <Button
+                android:id="@+id/Mentor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Profile"
+                android:layout_centerHorizontal="true"
+                android:text="Mentor" />
+
+            <Button
+                android:id="@+id/Topic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Mentor"
+                android:layout_centerHorizontal="true"
+                android:text="Topic" />
+
+            <Button
+                android:id="@+id/Opportunities"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Topic"
+                android:layout_centerHorizontal="true"
+                android:text="Opportunities" />
+        </RelativeLayout>
+    </RelativeLayout>
