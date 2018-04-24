@@ -32,11 +32,11 @@ public class FullscreenActivity extends AppCompatActivity {
 //        Intent intent = new Intent(this, MapsActivityOne.class);
 //        startActivity(intent);
 //    }
-//
-//    public void onMapButtonClick(View v)  {
-//        Intent intent = new Intent(this, MapsActivityOne.class);
-//        startActivity(intent);
-//    }
+
+    public void onOppButtonClick(View v)  {
+        Intent intent = new Intent(this, MapsActivityOne.class);
+        startActivity(intent);
+    }
 
     public void onMentorButtonClick(View v)  {
         Intent intent = new Intent(this, MainActivity.class);
